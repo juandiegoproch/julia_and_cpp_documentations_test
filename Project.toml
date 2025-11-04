@@ -1,0 +1,4 @@
+name = "test_julia"
+uuid = "c6335022-7b4a-4c01-9a55-fe409b981ce2"
+authors = ["Juan Diego Prochazka <juan.prochazka@utec.edu.pe>"]
+version = "0.1.0"

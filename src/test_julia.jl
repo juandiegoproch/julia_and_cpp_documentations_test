@@ -10,7 +10,8 @@ module test_julia
     # Returns
     - `Int`: Sum of `x` and `y`
 
-    Calls: [`sum()`](assets/html/libadd_8c.html)
+
+    Calls: [`sum`](@extref `sum`)
     """
     function testJuliaFunction(x::Int8, y::Int8)::Int
         return ccall((:sum,LIBPATH),Int,(Int8, Int8),x,y)

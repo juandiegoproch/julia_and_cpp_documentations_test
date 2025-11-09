@@ -1,0 +1,6 @@
+docs/_build/
+docs/_static/
+docs/_templates/
+docs_old/
+doxy_docs/doxygen/
+julia_docs/build/

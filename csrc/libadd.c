@@ -1,15 +1,9 @@
-/** 
- * @file libadd.c
- * @brief impl for libadd
- */
 #include "libadd.h"
-/**
- * Sum two int8 numbers
- * \(x + y\)
- * @param x First number
- * @param y Second number
- * @return Sum
- */
+
 extern int sum(char x, char y) {
     return (int)x + (int)y;
+}
+
+extern int sub(char x, char y){
+    return (int)x - (int)y;
 }

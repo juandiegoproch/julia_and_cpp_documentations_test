@@ -21,6 +21,9 @@ C API Documentation
 .. doxygenfunction:: sum
    :project: libadd
 
+.. doxygenfunction:: sub
+   :project: libadd
+
 Julia API Documentation
 ========================
 See the Julia wrapper function :ref:`julia:test_julia.testJuliaFunction` or

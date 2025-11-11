@@ -1,10 +1,10 @@
 # Mixed C++/Julia Documentation PoC
 
-This repo demonstrates a way to document Julia/C++ projects wich relies on Sphynx to parse Doxygen-generated XML files to generate a sphynx documentation that contains adequate inventory files. Jualia Documenter is then used with DocumenterInterlinks to produce a final Julia API documentation that links to the C++ api functions it uses. 
+This repo demonstrates a way to document Julia/C++ projects wich relies on Sphynx to parse Doxygen-generated XML files to generate a Sphynx documentation that contains adequate inventory files. The Julia Documenter.jl is then used with DocumenterInterlinks to produce a final Julia API documentation that links to the C++ api functions it uses. 
 
 # A brief tutorial
 
-We will create a new function for libadd (sub(cahr,char)) and link it to julia, while maintaining appropiate documentation.
+We will create a new function for libadd (sub(char,char)) and link it to julia, while maintaining appropiate documentation.
 
 # Adding a new Julia/C++ documented function in detail:
 
